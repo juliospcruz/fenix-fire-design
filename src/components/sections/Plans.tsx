@@ -1,6 +1,6 @@
 import { Reveal } from "@/components/Reveal";
 
-const plans = ["Gympass", "Totalpass", "Wellhub"];
+const plans = ["Totalpass", "Wellhub"];
 
 export function Plans() {
   return (
@@ -15,7 +15,7 @@ export function Plans() {
             Aceitamos os principais programas de bem-estar corporativo. Use seu plano e venha treinar conosco.
           </p>
         </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {plans.map((p, i) => (
             <Reveal key={p} delay={i * 100}>
               <div className="group relative bg-card border border-border rounded-xl p-10 hover:border-primary/60 transition-all hover:shadow-fire">

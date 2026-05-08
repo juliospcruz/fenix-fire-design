@@ -53,7 +53,7 @@ export function Footer() {
             <img src={phoenix} alt="" className="h-7 w-7" />
             <span className="font-display tracking-wider">NEW <span className="text-gradient-fire">FENIX</span> FITNESS</span>
           </div>
-          <p className="text-sm text-muted-foreground">© 2025 New Fenix Fitness. Todos os direitos reservados.</p>
+          <p className="text-sm text-muted-foreground">© 2025 New Fenix Fitness. Todos os direitos reservados. · Desenvolvido por <span className="text-gradient-fire font-semibold">JúlioDev</span></p>
         </div>
       </div>
     </footer>
