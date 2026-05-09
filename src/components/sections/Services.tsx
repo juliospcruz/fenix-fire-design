@@ -30,7 +30,7 @@ export function Services() {
           <div className="text-center mb-16">
             <span className="text-primary font-display tracking-[0.3em] text-sm">MODALIDADES</span>
             <h2 className="font-display text-5xl md:text-6xl mt-3">
-              ESCOLHA SEU <span className="text-gradient-fire">FOGO</span>
+              ESCOLHA SEU <span className="text-gradient-fire">DESAFIO</span>
             </h2>
           </div>
         </Reveal>
